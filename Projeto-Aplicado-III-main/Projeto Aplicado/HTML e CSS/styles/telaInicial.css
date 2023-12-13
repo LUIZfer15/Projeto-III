@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    background-image: url(../img/myclub.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+/* Botões */
+@media screen and (max-width: 1920px) {
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* Btn Menu */
+@media screen and (max-width: 1920px) {
+    .menu {
+        font-weight: bold;
+        text-align: center;
+        font-size: large;
+        color: white;
+        background-color: black;
+        border: none;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute;
+        left: 20%;
+        top: 10%;
+    }
+}
+
+.menu:hover {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Btn Clubes */
+@media screen and (max-width: 1920px) {
+    .clubes {
+        font-weight: bold;
+        text-align: center;
+        font-size: large;
+        color: white;
+        background-color: black;
+        border: none;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute;
+        left: 30%;
+        top: 10%;
+    }
+}
+
+.clubes:hover {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Btn Ingressos */
+@media screen and (max-width: 1920px) {
+    .ingressos {
+        font-weight: bold;
+        text-align: center;
+        font-size: large;
+        color: white;
+        background-color: black;
+        border: none;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: absolute;
+        left: 40%;
+        top: 10%;
+    }
+}
+
+.ingressos:hover {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Btn Entrar */
+@media screen and (max-width: 1920px) {
+    .entrar {
+        font-weight: bold;
+        font-size: large;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        color: white;
+        background-color: blueviolet;
+        position: absolute;
+        left: 85%;
+        top: 10%;
+        transform: translate(-80%, -10%);
+    }
+}
+
+.entrar:hover {
+    font-weight: bolder;
+    color: blueviolet;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
