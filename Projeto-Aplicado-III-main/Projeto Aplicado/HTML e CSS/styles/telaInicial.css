@@ -96,13 +96,13 @@ body {
 /* Btn Entrar */
 @media screen and (max-width: 1920px) {
     .entrar {
+        height: 50px;
+        width: 130px;
         font-weight: bold;
         font-size: large;
         border: none;
-        border-radius: 20px;
+        border-radius: 30px;
         padding: 10px;
-        padding-left: 40px;
-        padding-right: 40px;
         color: white;
         background-color: blueviolet;
         position: absolute;
@@ -113,9 +113,9 @@ body {
 }
 
 .entrar:hover {
-    font-weight: bolder;
+    font-weight: bold;
     color: blueviolet;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 30px;
     cursor: pointer;
 }

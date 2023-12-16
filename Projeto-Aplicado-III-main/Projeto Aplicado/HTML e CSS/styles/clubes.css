@@ -1,0 +1,172 @@
+body {
+    background-color: black;
+}
+
+/* Titulo */
+.encontre {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%, -2%);
+}
+
+/* Barra de Pesquisa */
+.pesquisar {
+    background-color: black;
+    height: 40px;
+    width: 250px;
+    font-size: medium;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    position: absolute;
+    left: 90%;
+    top: 15%;
+    transform: translate(-90%, -15%);
+}
+
+::placeholder {
+    color: white;
+    position: absolute;
+    left: 7%;
+}
+
+/* Btn 1 */
+.botao1 {
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    transform: translate(-20%, -70%);
+    background-color: purple;
+    background-image: url(../img/festa.jpg);
+    background-position: top;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.t1 {
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+}
+
+.btn1 {
+    background-color: blueviolet;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -90%);
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    color: blueviolet;
+    background-color: white;
+    font-weight: bold;
+}
+
+/* Btn 2 */
+.botao2 {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+    background-color: purple;
+    background-image: url(../img/festa.jpg);
+    background-position: top;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.t2 {
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+}
+
+.btn2 {
+    background-color: blueviolet;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -90%);
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    color: blueviolet;
+    background-color: white;
+    font-weight: bold;
+}
+
+/* Btn 3 */
+.botao3 {
+    position: absolute;
+    left: 80%;
+    top: 70%;
+    transform: translate(-80%, -70%);
+    background-color: purple;
+    background-image: url(../img/festa.jpg);
+    background-position: top;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.t3 {
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+}
+
+.btn3 {
+    background-color: blueviolet;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -90%);
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn3:hover {
+    color: blueviolet;
+    background-color: white;
+    font-weight: bold;
+}
